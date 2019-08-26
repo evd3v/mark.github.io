@@ -25,7 +25,7 @@ window.onload = function() {
         if(event.deltaY > 0) {
             window.scrollTo(0,sectionHeight * (numberOfSection + 1));
         } else {
-            window.scrollTo(0,sectionHeight * (numberOfSection));
+            window.scrollTo(0,sectionHeight * (numberOfSection - 1));
         }
     }
 
